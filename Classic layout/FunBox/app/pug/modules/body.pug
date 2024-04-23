@@ -1,0 +1,60 @@
+body
+    .container
+        h1.container__heading Ты сегодня покормил кота?
+        .wrapper 
+            .block
+                .card
+                    .card__suppose_left-border
+                    .card__suppose
+                        p.card__name Сказочное заморское яство
+                        h2.card__heading Нямушка
+                        h3.card__type с фуа-гра
+                        p.card__amount 10 порций
+                        p.card__present мышь в подарок
+                    .card__wrapper
+                        .circle 
+                            p.circle__text 0,5 
+                                span кг
+                    img(src='../img/cat.png' alt='background').card__image                                
+                .info
+                    p.info__text Чего сидишь? Порадуй котэ, 
+                        a(href='#').info__link купи.
+            .block.block__disappear
+                .card.card__color
+                    .card__suppose_left-border
+                    .card__suppose 
+                        p.card__name Сказочное заморское яство
+                        h2.card__heading Нямушка
+                        h3.card__type с рыбой
+                        p.card__amount 40 порций
+                        p.card__present 2 мыши в подарок
+                    .card__wrapper
+                        .circle.circle__color 
+                            p.circle__text 2 
+                                span кг
+                    img(src='../img/cat.png' alt='background').card__image                     
+                .info
+                p.info__text Головы щучьи с чесноком да свежайшая сёмгушка.
+            .block.block__color_grey.block__disappear 
+                .card.card__color_grey
+                    .card__suppose_left-border
+                    .card__suppose 
+                        p.card__name Сказочное заморское яство
+                        h2.card__heading Нямушка
+                        h3.card__type с курой
+                        p.card__amount 100 порций
+                        p.card__present 5 мышей в подарок
+                        p.card__present заказчик доволен
+                    .card__wrapper
+                        .circle.circle__color_grey 
+                            p.circle__text 5 
+                                span кг
+                    img(src='../img/cat.png' alt='background').card__image     
+                .info
+                p.info__text.info__text_color Печалька, с курой закончился.
+            .block.block__disappear.block__disappear_none.block__comment
+                p.block__comments - угол только через псевдокласс и дополнительный div;
+                p.block__comments - background-blend-mode: overlay;
+                p.block__comments - object-fit: cover;
+                p.block__comments - filter: contrast(30%) brightness(160%)
+    
