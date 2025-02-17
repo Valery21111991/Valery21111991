@@ -1,0 +1,518 @@
+.section {
+    padding-left: 3rem;
+    padding-top: 3rem;
+    width: 100%;
+}
+
+.section__title{
+    font-family: 'Futura PT 500',sans-serif;
+    font-size: 3.2rem;
+    margin-bottom: 2.5rem;
+    text-align: left;
+
+}
+
+
+.location__settings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 47.8rem;
+}
+.location__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.location__button {
+    font-family: 'Futura PT 500',sans-serif;
+    background-color: #fff;
+    font-weight: bolder;
+    height: 3.7rem;
+    font-size: 1.4rem;
+    color:#172139;
+    margin-bottom: 3.1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location__buttons{
+    background-color: transparent;
+}
+
+.location__button:hover{
+    color:#fff;
+    background-color: #172139;
+}
+
+.location__button_all {
+    width: 14rem;
+}
+
+.location__button_imEx {
+    width: 16.5rem;
+}
+
+.location__button_settings {
+    width: 13rem;
+}
+
+.location__button_width {
+    width: 33.6rem;
+    text-transform: uppercase;
+    background-color:#172139;
+    background-image: url('../../../images/circle.png');
+    background-repeat: no-repeat;
+    background-position: 1.85rem center;
+    color:#fff;
+}
+
+.location__add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location__synchro {
+    margin-right: 3rem;
+
+}
+
+.location__title {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.location__info{
+    display: flex;
+}
+
+.location__data {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+.location__form{ 
+    position: relative;
+    margin-left: 2.5rem;
+}
+
+.location__checkbox{
+    font-family: 'Montserrat 500',sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location__arrow:checked, .location__arrow:not(:checked){
+    position: absolute;
+    left: -9999px;
+}
+
+.location__arrow:checked + label, .location__arrow:not(:checked) + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 2.7rem;
+}
+
+
+.location__arrow:checked + label::before, .location__arrow:not(:checked) + label::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width:2rem;
+  height:2rem;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.location__arrow:checked + label::after{
+    content: url(../../../images/checkbox.png);
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+}
+
+.location__search {
+    width: 30rem;
+    height: 5rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #AEAEAE;
+    padding-left: 4rem;
+    border-radius: 0.5rem;
+}
+
+.location__loupe {
+    position:absolute;
+    top: 1.8rem;
+    left: 2rem;
+    background-color: #fff;
+    background-image: url('../../../images/loupe.png');
+    background-repeat: no-repeat;
+    width: 1.34rem;
+    height: 1.343rem;
+}
+
+.location__items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.7rem;
+}
+
+.location__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.location__modal{
+    background:none ;
+    background-image: url(../../../images/pencil.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    border: none;
+    color:#FF6600;
+    text-transform: none;
+    font-family:"Montserrat", sans-serif ;
+    font-size: 1.4rem;
+    padding-left: 1.7rem;
+    max-width: 12.7rem;
+    margin-right: 2rem;
+}
+
+.location__button_item{
+    background-image: url(../../../images/plusOrange.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.5rem;
+}
+
+.location__button_point {
+    background-image: url(../../../images/point.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 0.4rem;
+    height: 1.6rem;
+    margin-right: 1.5rem;
+}
+
+.location__heading {
+    font-family: 'Futura PT 600', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    margin-right: 3rem;
+}
+
+.location__number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #FF6600;
+    margin-right: 3rem;
+}
+
+.location__delete {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #FF5959;
+    background-image: url('../../../images/delete.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 1.5rem;
+    line-height: 1.7rem ;
+}
+
+.location__comment {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color:#000;
+    margin-right: 3rem;
+}
+
+.location__barcode{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color:#000;
+}
+
+.location__sections{
+    margin-left: 4.5rem;
+}
+
+.location_underSectios {
+    margin-top: 1.7rem;
+    margin-left: 4.5rem;
+}
+
+.settings__block{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.settings__buttons {
+    justify-content: flex-start;
+}
+
+.settings__button {
+    height: 3.7rem;
+    width: 13.2rem;
+    text-align: center;
+    margin-right: 2rem;
+    line-height: 1.795rem;
+    color:#172139;
+    border-radius: 0.5rem;
+    padding: 1rem 3.5rem;
+}
+
+.settings__button_property {
+    width: 14rem;
+}
+
+.settings__button_invent{
+    width: 17.8rem;
+}
+
+.settings__button_personal {
+    width: 16rem;
+}
+
+.settings__button_location {
+    width: 13.2rem;
+}
+
+.settings__heading {
+    text-align: left;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    font-family: 'Futura PT 600',sans-serif;
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+}
+
+.settings__cell {
+    width: 20.6rem;
+    font-family: 'Montserrat 500', sans-serif;
+    font-size: 1.4rem;
+    color:#000;
+    line-height:1.707rem;
+    height: 4rem;
+    border:0;
+    font-weight: 500;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.settings__cell_1{
+    width: 40.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.settings__cell_border {
+    border-left: 0.1rem #C4C4C4 solid;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.settings__cell_position {
+    position: relative;
+    width: 12.4rem;
+}
+
+.settings__cell_borders {
+    width: 8.1rem;
+    height: 3.1rem;
+    border: 0.1rem solid #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.settings__cell_sort{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 17.3rem;
+}
+
+.settings__cell_font {
+    font-family: 'Montserrat 400', sans-serif;
+    font-size: 1.3rem;
+    line-height:1.69rem;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.settings__cell_picture{
+    background-image: url('../../../images/paper.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.settings__cell_left{
+    text-align: left;
+}
+
+.settings__cell_width{
+    width: 15.2rem;
+}
+
+.settings__text {
+     text-align: left;   
+}
+
+.table__line {
+    height: 6rem;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.table__line:nth-child(2n+1) {
+    background-color: #fff;
+}
+
+.table__line_title {
+    background-color: #fff;
+}
+
+.settings__tableBody {
+    margin-top: 1rem;
+}
+
+.setting__choise{
+    background-image: url('../../../images/point.png');
+    background-repeat:no-repeat ;
+    height: 1.6rem;
+    width: 0.4rem;
+    background-position: left center;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.setting__pencil{
+    background-image: url('../../../images/pencil.png');
+    background-repeat: no-repeat;
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: #fff;
+    margin-left: 1rem;
+}
+
+.settings__question {
+    background-image: url('../../../images/question.png');
+    background-repeat: no-repeat;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: #fff;
+    position: absolute;
+    left:0;
+    bottom: 1rem;
+}
+
+
+
+.setting__arrow:checked, .setting__arrow:not(:checked){
+    position: absolute;
+    left: -9999px;
+}
+
+.setting__arrow:checked + label, .setting__arrow:not(:checked) + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 2.7rem;
+}
+
+
+.setting__arrow:checked + label::before, .setting__arrow:not(:checked) + label::before {
+  content: "";
+  position: absolute;
+  left: -0.1rem;
+  top: -0.6rem;
+  width:2rem;
+  height:2rem;
+  border: 1px solid #FF6600;
+  background-color: #fff;
+}
+
+.setting__arrow:checked + label::after{
+    content: url(../../../images/checkbox.png);
+    position: absolute;
+    left: 0rem;
+    top: -0.5rem;
+}
+
+.settings__title{
+    display: flex;
+}
+
+.settings__cell_title1 {
+    width: 40.5rem;
+}
+
+.settings__cell_title2 {
+    width: 12.4rem;
+}
+
+.settings__cell_title3 {
+    width: 17.3rem;
+}
+
+.settings__cell_title4 {
+    width: 15.2rem;
+}
+
+.settings__cell_title5 {
+    width: 20.6rem;
+}
+
+.settings__cell_title6 {
+    width: 20.6rem;
+}
+
+.settings__cell_title7 {
+    width: 16.8rem;
+}
+
+.settings__cell_title8 {
+    width: 11.6rem;
+}
+
+.settings__add {
+    padding-bottom: 8.5rem;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1.8rem;
+}
+
+.modal-show-button_width {
+    width: 25.5rem;
+}
+
+.main{
+    min-height: 90.3rem;
+}

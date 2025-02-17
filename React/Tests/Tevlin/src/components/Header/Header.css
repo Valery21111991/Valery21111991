@@ -1,0 +1,27 @@
+.header {
+display: flex;
+justify-content: space-around;
+align-content: center;
+width: 100%;
+}
+
+.header__logo{
+    background-image: url('../../images/2.01.png');
+    background-repeat: no-repeat;
+   
+    background-position: 4.2rem 1.8rem;
+    width: 50%;
+    display: flex;
+    padding-left: 1.5rem;
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+}
+
+.header__exit {
+    width: 50%;
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 3rem;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+}

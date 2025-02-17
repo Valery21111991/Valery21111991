@@ -1,0 +1,69 @@
+
+
+.navbar {
+    background-color: #fff;
+    font-size: 1.7rem;
+    max-height: 44.6rem;
+}
+
+.navbar__items {
+    min-width: 29rem;
+
+}
+
+.navbar__item {
+    padding-top: 2.1rem;
+    padding-bottom: 2rem;
+    border-bottom: solid #f4f4f4 0.1rem;
+    background-position: left 1.5rem center;
+    text-align: left;
+    padding-left: 4.6rem;
+}
+
+.navbar__item:hover {
+    background-color: #172139;
+    color:#fff;
+}
+
+.navbar__item_property {
+    background-image: url('../../../images/icons/property.png');
+    background-repeat: no-repeat;
+
+}
+
+.navbar__item_inventory {
+    background-image: url('../../../images/icons/inventory.png');
+    background-repeat: no-repeat;   
+}
+
+.navbar__item_employees {
+    background-image: url('../../../images/icons/employees.png');
+    background-repeat: no-repeat;      
+}
+
+.navbar__item_notice {
+    background-image: url('../../../images/icons/notice.png');
+    background-repeat: no-repeat;     
+}
+
+.navbar__item_location {
+    background-image: url('../../../images/icons/location.png');
+    background-repeat: no-repeat;   
+}
+
+.navbar__item_settings {
+    background-image: url('../../../images/icons/settings.png');
+    background-repeat: no-repeat;    
+}
+
+.navbar__item_hide {
+    background-image: url('../../../images/icons/hide.png');
+    background-repeat: no-repeat;  
+    text-align: center;
+    padding-left: 0;
+    background-position: left 7rem center;
+    color:#FF6600;
+    font-size: 1.7rem;
+    font-family: 'Futura PT 400', sans-serif;
+
+}
